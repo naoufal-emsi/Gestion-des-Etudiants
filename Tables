@@ -1,0 +1,18 @@
++-------------+-------------+-----------+-------------+----------------+------------+----------------+
+| TABLE_NAME  | COLUMN_NAME | DATA_TYPE | IS_NULLABLE | COLUMN_DEFAULT | COLUMN_KEY | EXTRA          |
++-------------+-------------+-----------+-------------+----------------+------------+----------------+
+| enseignants | id          | int       | NO          | NULL           | PRI        | auto_increment |
+| enseignants | nom         | varchar   | NO          | NULL           |            |                |
+| enseignants | prenom      | varchar   | NO          | NULL           |            |                |
+| enseignants | matiere     | varchar   | NO          | NULL           |            |                |
+| etudiants   | id          | int       | NO          | NULL           | PRI        |                |
+| etudiants   | nom         | varchar   | NO          | NULL           |            |                |
+| etudiants   | prenom      | varchar   | NO          | NULL           |            |                |
+| etudiants   | id_groupe   | int       | NO          | NULL           |            |                |
+| examens     | id          | int       | NO          | NULL           | PRI        |                |
+| examens     | matiere     | varchar   | NO          | NULL           |            |                |
+| examens     | date        | date      | NO          | NULL           |            |                |
+| notes       | id_etudiant | int       | NO          | NULL           | PRI        |                |
+| notes       | id_examen   | int       | NO          | NULL           | PRI        |                |
+| notes       | note        | float     | NO          | NULL           |            |                |
++-------------+-------------+-----------+-------------+----------------+------------+----------------+
